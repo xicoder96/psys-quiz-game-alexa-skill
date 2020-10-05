@@ -1,0 +1,105 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "summary": "Psy\u0027s Quiz game is the ultimate quiz challenge game where you can conduct quiz with questions from any of the 23 different category that you choose.",
+          "examplePhrases": [
+            "Alexa open psy\u0027s quiz game",
+            "Alexa launch psy\u0027s quiz game",
+            "Alexa start psy\u0027s quiz game"
+          ],
+          "keywords": [
+            "quiz",
+            "master",
+            "trivia",
+            "games",
+            "challenge",
+            "anime",
+            "cinema",
+            "movies",
+            "politics",
+            "books",
+            "gadgets",
+            "celebrities",
+            "TV",
+            "shows",
+            "manga",
+            "science",
+            "nature",
+            "art",
+            "history",
+            "mythology",
+            "comics",
+            "geography",
+            "sports",
+            "video",
+            "games"
+          ],
+          "name": "Psy\u0027s-Quiz Game, the Ultimate quiz challenge",
+          "description": "# Psys Quiz Game - A Quiz game that you\u0027ve never played before\n\n- Psy\u0027s Quiz game is a quiz challenge game where you will be asked questions regarding to the category you choose. Yes! Its as simple as it sounds.\n- You can choose your category from 23 different categories, ranging from \n    - Books, \n    - Film, \n    - Music, \n    - Musicals and Theatres, \n    - Television, \n    - Video Games, \n    - Board Games, \n    - Science and Nature, \n    - Computers, \n    - Mathematics, \n    - Mythology, \n    - Sports, \n    - Geography, \n    - History, \n    - Politics, \n    - Art, \n    - Celebrities, \n    - Animals, \n    - Vehicles, \n    - Comics, \n    - Gadgets, \n    - Japanese Anime and Manga, \n    - Cartoon and Animations. \n\u003e You can also conduct quiz from shuffled categories by saying \"any\" categories.\n- You can conduct quiz with any number of questions ranging from 1-15.\n\n## Instructions (Sample Uttarences)\n\n- Launch skill\n    - \"Alexa, open psy\u0027s quiz game\"\n    - \"Alexa, start psy\u0027s quiz game\"\n    - \"Alexa, launch psy\u0027s quiz game\"\n\n### What to do After launching ? \n\n- Start the quiz\n    - \"ask ten question on computer category\" \n    - \"ask three question on computers\" \n    - \"two questions on anime\"\n    - \"give me ten questions on any category\"\n- Answer the quiz\n    - \"option one\"\n    - \"please lock option one\"    \n    - \"answer is option one\"    \n- List out all the categories\n    - \"categories\"\n- Ask for help\n    - \"help\"\n- Repeat a question again\n    - \"repeat\"        \n    - \"repeat it\"\n- Stop the quiz\n    - \"stop\"\n    - \"exit\"\n- Resume the quiz\n    - \"questions\"                \n    - \"questions please\"\n- Restart the quiz\n    - \"restart quiz with three question on computer category\" \n    - \"restart with ten question on computer\" \n    - \"restart with anime category\"\n    - \"restart with two questions\"\n    - \"restart quiz\"\n\n\u003e Note: Default value for questions count is ten and default category is any category\n\n## Permissions and usage\n\n-  This skill requires permission to access you Name and timezone which will be only used for the salutation introduction.\n\nSo Ready to give it a try  ?",
+          "smallIconUri": "file://assets/images/en-US_smallIconUri.png",
+          "updatesDescription": "Conduct quiz from 23 different categories ranging from anime, books, tv shows and many more.",
+          "largeIconUri": "file://assets/images/en-US_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "sourceLocaleForLanguages": [
+          {
+            "sourceLocale": "en-US",
+            "language": "en"
+          }
+        ],
+        "isActive": true
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "## Instructions (Sample Uttarences)\n\n- Launch skill\n    - \"Alexa, open psy\u0027s quiz game\"\n    - \"Alexa, start psy\u0027s quiz game\"\n    - \"Alexa, launch psy\u0027s quiz game\"\n\n### What to do After launching ? \n\n- Start the quiz\n    - \"ask ten question on computer category\" \n    - \"ask three question on computers\" \n    - \"two questions on anime\"\n    - \"give me ten questions on any category\"\n- Answer the quiz\n    - \"option one\"\n    - \"please lock option one\"    \n    - \"answer is option one\"    \n- List out all the categories\n    - \"categories\"\n- Ask for help\n    - \"help\"\n- Repeat a question again\n    - \"repeat\"        \n    - \"repeat it\"\n- Stop the quiz\n    - \"stop\"\n    - \"exit\"\n- Resume the quiz\n    - \"questions\"                \n    - \"questions please\"\n- Restart the quiz\n    - \"restart quiz with three question on computer category\" \n    - \"restart with ten question on computer\" \n    - \"restart with anime category\"\n    - \"restart with two questions\"\n    - \"restart quiz\"\n\n\u003e Note: Default value for questions count is ten and default category is any category\n\n## Permissions and usage\n\n-  This skill requires permission to access you Name and timezone which will be only used for the salutation introduction.",
+      "category": "KNOWLEDGE_AND_TRIVIA",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:677858523537:function:9f6cae39-61d6-4269-b795-2afda1d224cb:Release_2"
+        },
+        "interfaces": [],
+        "regions": {
+          "EU": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:eu-west-1:677858523537:function:9f6cae39-61d6-4269-b795-2afda1d224cb:Release_2"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:677858523537:function:9f6cae39-61d6-4269-b795-2afda1d224cb:Release_2"
+            }
+          },
+          "FE": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-west-2:677858523537:function:9f6cae39-61d6-4269-b795-2afda1d224cb:Release_2"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0",
+    "permissions": [
+      {
+        "name": "alexa::profile:given_name:read"
+      }
+    ],
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "locales": {
+        "en-US": {
+          "termsOfUseUrl": "https://drive.google.com/file/d/12jhvzxGhit38-7DpGUOdUhGVX-SxHn_m/view?usp\u003dsharing",
+          "privacyPolicyUrl": "https://drive.google.com/file/d/1gTxALHto_vsw58Z2dfs7LBVR429uR8Lw/view?usp\u003dsharing"
+        }
+      },
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": true
+    }
+  }
+}

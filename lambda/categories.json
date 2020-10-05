@@ -1,0 +1,194 @@
+[
+   {
+      "key": "any",
+      "value": "Any Category",
+      "synonyms": [
+         "any",
+         "all",
+         "what ever",
+         "everything"
+      ]
+   },
+   {
+      "key": "10",
+      "value": "Books",
+      "synonyms": [
+         "books",
+         "authors",
+         "literature"
+      ]
+   },
+   {
+      "key": "11",
+      "value": "Film",
+      "synonyms": [
+         "films",
+         "movies",
+         "movie",
+         "film"
+      ]
+   },
+   {
+      "key": "12",
+      "value": "Music",
+      "synonyms": [
+         "music",
+         "singers",
+         "rockstars"
+      ]
+   },
+   {
+      "key": "13",
+      "value": "Musicals and Theatres",
+      "synonyms": [
+         "theatres",
+         "musicals"
+      ]
+   },
+   {
+      "key": "14",
+      "value": "Television",
+      "synonyms": [
+         "television",
+         "tv",
+         "tv shows",
+         "sitcoms",
+         "tv series"
+      ]
+   },
+   {
+      "key": "15",
+      "value": "Video Games",
+      "synonyms": [
+         "video Games"
+      ]
+   },
+   {
+      "key": "16",
+      "value": "Board Games",
+      "synonyms": [
+         "Board Games"
+      ]
+   },
+   {
+      "key": "17",
+      "value": "Science and Nature",
+      "synonyms": [
+         "Nature"
+      ]
+   },
+   {
+      "key": "18",
+      "value": "Computers",
+      "synonyms": [
+         "Computers",
+         "Cyber",
+         "computer science"
+      ]
+   },
+   {
+      "key": "19",
+      "value": "Mathematics",
+      "synonyms": [
+         "Mathematics",
+         "Maths"
+      ]
+   },
+   {
+      "key": "20",
+      "value": "Mythology",
+      "synonyms": [
+         "Mythology"
+      ]
+   },
+   {
+      "key": "21",
+      "value": "Sports",
+      "synonyms": [
+         "Sports",
+         "cricket",
+         "football",
+         "soccer",
+         "hockey"
+      ]
+   },
+   {
+      "key": "22",
+      "value": "Geography",
+      "synonyms": [
+         "Geography"
+      ]
+   },
+   {
+      "key": "23",
+      "value": "History",
+      "synonyms": [
+         "History"
+      ]
+   },
+    {
+      "key": "24",
+      "value": "Politics",
+      "synonyms":["Politics"]
+   },
+   {
+      "key": "25",
+      "value": "Art",
+      "synonyms": [
+         "Art"
+      ]
+   },
+   {
+      "key": "26",
+      "value": "Celebrities",
+      "synonyms": [
+         "Celebrities"
+      ]
+   },
+   {
+      "key": "27",
+      "value": "Animals",
+      "synonyms": [
+         "animals"
+      ]
+   },
+   {
+      "key": "28",
+      "value": "Vehicles",
+      "synonyms": [
+         "Vehicles"
+      ]
+   },
+   {
+      "key": "29",
+      "value": "Comics",
+      "synonyms": [
+         "Comics"
+      ]
+   },
+   {
+      "key": "30",
+      "value": "Gadgets",
+      "synonyms": [
+         "Gadgets"
+      ]
+   },
+   {
+      "key": "31",
+      "value": "Japanese Anime and Manga",
+      "synonyms": [
+         "anime",
+         "manga",
+         "japanese anime",
+         "japan cartoon"
+      ]
+   },
+   {
+      "key": "32",
+      "value": "Cartoon and Animations",
+      "synonyms": [
+         "cartoon",
+         "animation"
+      ]
+   }
+]

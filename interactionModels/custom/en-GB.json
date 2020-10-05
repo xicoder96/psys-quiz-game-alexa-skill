@@ -1,0 +1,616 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "psy\u0027s quiz game",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "StartQuizIntent",
+          "slots": [
+            {
+              "name": "questionsNo",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "category",
+              "type": "Category"
+            }
+          ],
+          "samples": [
+            "ask {questionsNo} on {category} category",
+            "ask {questionsNo} on {category}",
+            "questions",
+            "questions please",
+            "ask some questions on {category}",
+            "ask {questionsNo} questions",
+            "ask me questions on {category}",
+            "ask questions",
+            "ask me questions",
+            "give me {questionsNo} questions",
+            "give me {questionsNo} questions on {category}",
+            "{questionsNo} questions on {category}",
+            "{questionsNo} questions on {category} category"
+          ]
+        },
+        {
+          "name": "AnswerQuizIntent",
+          "slots": [
+            {
+              "name": "answer",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "samples": [
+            "is it option {answer}",
+            "please lock option {answer}",
+            "option {answer}",
+            "answer is {answer}",
+            "{answer}"
+          ]
+        },
+        {
+          "name": "AMAZON.YesIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NoIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.RepeatIntent",
+          "samples": []
+        },
+        {
+          "name": "RestartQuizIntent",
+          "slots": [
+            {
+              "name": "questionsNo",
+              "type": "AMAZON.NUMBER"
+            },
+            {
+              "name": "category",
+              "type": "Category"
+            }
+          ],
+          "samples": [
+            "restart with {questionsNo} question  on {category} category",
+            "restart with {questionsNo} question  on {category}",
+            "restart with {category} category",
+            "restart with {questionsNo} questions  on {category}",
+            "restart with {questionsNo} questions",
+            "restart",
+            "redo the quiz",
+            "lets restart it",
+            "restart quiz but with {category} category",
+            "restart quiz",
+            "restart quiz on {category} category",
+            "restart quiz with {questionsNo} questions",
+            "restart quiz with {questionsNo} questions on {category} category",
+            "restart quiz with {questionsNo} questions on {category}"
+          ]
+        },
+        {
+          "name": "GetCategoryIntent",
+          "slots": [],
+          "samples": [
+            "categories you know",
+            "quiz categories",
+            "what all categories you could take quiz on",
+            "categories",
+            "category"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "id": "24",
+              "name": {
+                "value": "politics",
+                "synonyms": [
+                  "republics",
+                  "democrats",
+                  "parties"
+                ]
+              }
+            },
+            {
+              "id": "13",
+              "name": {
+                "value": "musicals and theatres",
+                "synonyms": [
+                  "theatres"
+                ]
+              }
+            },
+            {
+              "id": "32",
+              "name": {
+                "value": "cartoon and animations",
+                "synonyms": [
+                  "animation",
+                  "us cartoon",
+                  "cartoon"
+                ]
+              }
+            },
+            {
+              "id": "31",
+              "name": {
+                "value": "anime and manga",
+                "synonyms": [
+                  "japan manga",
+                  "japan anime",
+                  "Japanese cartoon",
+                  "Japanese manga",
+                  "Japanese anime",
+                  "manga",
+                  "anime"
+                ]
+              }
+            },
+            {
+              "id": "30",
+              "name": {
+                "value": "gadgets"
+              }
+            },
+            {
+              "id": "29",
+              "name": {
+                "value": "comics",
+                "synonyms": [
+                  "Marvel"
+                ]
+              }
+            },
+            {
+              "id": "28",
+              "name": {
+                "value": "vehicles",
+                "synonyms": [
+                  "cars"
+                ]
+              }
+            },
+            {
+              "id": "27",
+              "name": {
+                "value": "animals"
+              }
+            },
+            {
+              "id": "26",
+              "name": {
+                "value": "celebrities"
+              }
+            },
+            {
+              "id": "25",
+              "name": {
+                "value": "art"
+              }
+            },
+            {
+              "id": "23",
+              "name": {
+                "value": "history"
+              }
+            },
+            {
+              "id": "22",
+              "name": {
+                "value": "geography",
+                "synonyms": [
+                  "geo"
+                ]
+              }
+            },
+            {
+              "id": "21",
+              "name": {
+                "value": "sports"
+              }
+            },
+            {
+              "id": "20",
+              "name": {
+                "value": "mythology",
+                "synonyms": [
+                  "myth"
+                ]
+              }
+            },
+            {
+              "id": "19",
+              "name": {
+                "value": "mathematics",
+                "synonyms": [
+                  "maths"
+                ]
+              }
+            },
+            {
+              "id": "18",
+              "name": {
+                "value": "computers",
+                "synonyms": [
+                  "programming",
+                  "coding",
+                  "computer science",
+                  "Cyber"
+                ]
+              }
+            },
+            {
+              "id": "17",
+              "name": {
+                "value": "science and nature",
+                "synonyms": [
+                  "environment",
+                  "nature"
+                ]
+              }
+            },
+            {
+              "id": "16",
+              "name": {
+                "value": "board games",
+                "synonyms": [
+                  "boardgames"
+                ]
+              }
+            },
+            {
+              "id": "15",
+              "name": {
+                "value": "video games",
+                "synonyms": [
+                  "videogames"
+                ]
+              }
+            },
+            {
+              "id": "14",
+              "name": {
+                "value": "television",
+                "synonyms": [
+                  "tv series",
+                  "sitcoms",
+                  "TV programs",
+                  "TV shows"
+                ]
+              }
+            },
+            {
+              "id": "12",
+              "name": {
+                "value": "Music",
+                "synonyms": [
+                  "rockstar",
+                  "singers",
+                  "songs",
+                  "pop",
+                  "rockstar",
+                  "song"
+                ]
+              }
+            },
+            {
+              "id": "11",
+              "name": {
+                "value": "film",
+                "synonyms": [
+                  "motion pictures",
+                  "feature films",
+                  "documentaries",
+                  "art films",
+                  "cinema",
+                  "films",
+                  "movie",
+                  "movies"
+                ]
+              }
+            },
+            {
+              "id": "10",
+              "name": {
+                "value": "books",
+                "synonyms": [
+                  "literature",
+                  "authors"
+                ]
+              }
+            },
+            {
+              "id": "any",
+              "name": {
+                "value": "any",
+                "synonyms": [
+                  "shuffle",
+                  "random",
+                  "whatever",
+                  "whatsoever"
+                ]
+              }
+            }
+          ],
+          "name": "Category"
+        },
+        {
+          "values": [
+            {
+              "id": "3",
+              "name": {
+                "value": "d",
+                "synonyms": [
+                  "dey",
+                  "dee",
+                  "answer d",
+                  "option d"
+                ]
+              }
+            },
+            {
+              "id": "2",
+              "name": {
+                "value": "c",
+                "synonyms": [
+                  "cey",
+                  "sea",
+                  "answer c",
+                  "option c"
+                ]
+              }
+            },
+            {
+              "id": "1",
+              "name": {
+                "value": "b",
+                "synonyms": [
+                  "bee",
+                  "answer b",
+                  "option b"
+                ]
+              }
+            },
+            {
+              "id": "0",
+              "name": {
+                "value": "a",
+                "synonyms": [
+                  "aah",
+                  "aey",
+                  "aay",
+                  "answer a",
+                  "option a"
+                ]
+              }
+            }
+          ],
+          "name": "Answer"
+        }
+      ],
+      "modelConfiguration": {
+        "fallbackIntentSensitivity": {
+          "level": "LOW"
+        }
+      }
+    },
+    "dialog": {
+      "intents": [
+        {
+          "name": "StartQuizIntent",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "questionsNo",
+              "type": "AMAZON.NUMBER",
+              "elicitationRequired": false,
+              "confirmationRequired": false,
+              "prompts": {},
+              "validations": [
+                {
+                  "type": "isLessThanOrEqualTo",
+                  "prompt": "Slot.Validation.1459266779373.648405759686.1521803885961",
+                  "value": "15"
+                },
+                {
+                  "type": "isGreaterThan",
+                  "prompt": "Slot.Validation.1459266779373.648405759686.329573509310",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "name": "category",
+              "type": "Category",
+              "elicitationRequired": false,
+              "confirmationRequired": false,
+              "prompts": {},
+              "validations": [
+                {
+                  "type": "hasEntityResolutionMatch",
+                  "prompt": "Slot.Validation.1459266779373.344025336084.1399492506462"
+                }
+              ]
+            }
+          ],
+          "delegationStrategy": "ALWAYS"
+        },
+        {
+          "name": "AnswerQuizIntent",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "answer",
+              "type": "AMAZON.NUMBER",
+              "elicitationRequired": false,
+              "confirmationRequired": false,
+              "prompts": {},
+              "validations": [
+                {
+                  "type": "isLessThanOrEqualTo",
+                  "prompt": "Slot.Validation.8353785506.467220931677.832881193144",
+                  "value": "4"
+                },
+                {
+                  "type": "isGreaterThan",
+                  "prompt": "Slot.Validation.8353785506.467220931677.922079789858",
+                  "value": "0"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "RestartQuizIntent",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "questionsNo",
+              "type": "AMAZON.NUMBER",
+              "elicitationRequired": false,
+              "confirmationRequired": false,
+              "prompts": {},
+              "validations": [
+                {
+                  "type": "isLessThanOrEqualTo",
+                  "prompt": "Slot.Validation.1043755415498.740045456262.1383086560818",
+                  "value": "15"
+                },
+                {
+                  "type": "isGreaterThan",
+                  "prompt": "Slot.Validation.1043755415498.740045456262.1170990760920",
+                  "value": "0"
+                }
+              ]
+            },
+            {
+              "name": "category",
+              "type": "Category",
+              "elicitationRequired": false,
+              "confirmationRequired": false,
+              "prompts": {},
+              "validations": [
+                {
+                  "type": "hasEntityResolutionMatch",
+                  "prompt": "Slot.Validation.760757044168.898920636010.1253144130327"
+                }
+              ]
+            }
+          ],
+          "delegationStrategy": "ALWAYS"
+        }
+      ],
+      "delegationStrategy": "ALWAYS"
+    },
+    "prompts": [
+      {
+        "id": "Slot.Validation.1459266779373.344025336084.1399492506462",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "ohh im sorry, i dont know much about {category} , i can conduct a quiz on computers, films, music,  anime, comics and a lot more. What would you like to try first?"
+          }
+        ]
+      },
+      {
+        "id": "Slot.Validation.1459266779373.648405759686.1521803885961",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Oh , im sorry , at the moment i can only ask upto fifteen questions. Please choose a value lesser or equal to fifteen"
+          }
+        ]
+      },
+      {
+        "id": "Slot.Validation.1459266779373.648405759686.329573509310",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "hmmm. please choose a value greater than zero."
+          }
+        ]
+      },
+      {
+        "id": "Slot.Validation.415959934131.1426558736093.302661314849",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "oh im sorry, i cant find that option. please select an option from the above "
+          }
+        ]
+      },
+      {
+        "id": "Slot.Validation.1043755415498.740045456262.1383086560818",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "Oh , im sorry , at the moment i can only ask upto fifteen questions. Please choose a value lesser or equal to fifteen"
+          }
+        ]
+      },
+      {
+        "id": "Slot.Validation.1043755415498.740045456262.1170990760920",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "hmmm. please choose a value greater than zero."
+          }
+        ]
+      },
+      {
+        "id": "Slot.Validation.8353785506.467220931677.832881193144",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "please select an option from the above"
+          }
+        ]
+      },
+      {
+        "id": "Slot.Validation.8353785506.467220931677.922079789858",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "please select correct option from the above"
+          }
+        ]
+      },
+      {
+        "id": "Slot.Validation.760757044168.898920636010.1253144130327",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "ohh im sorry, i dont know much about {category} , i can conduct a quiz on computers, films, music,  anime, comics and a lot more. What would you like to try first?"
+          }
+        ]
+      }
+    ]
+  },
+  "version": "1"
+}
