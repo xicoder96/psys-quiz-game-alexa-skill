@@ -33,10 +33,10 @@
 | Country        | Available | Store Link                                          |
 |----------------|-----------|-----------------------------------------------------|
 | United States  | Yes       | [Go to store](https://www.amazon.com/dp/B08KCYC2QJ) |
-| India          | No        | [Go to store](#)                                    |
-| Canada         | No        | [Go to store](#)                                    |
-| Australia      | No        | [Go to store](#)                                    |
-| United Kingdom | No        | [Go to store](#)                                    |
+| India          | Yes       | [Go to store](https://www.amazon.in/dp/B08KCYC2QJ)  |
+| Canada         | Yes       | [Go to store](https://www.amazon.ca/dp/B08KCYC2QJ)  |
+| Australia      | Yes       | [Go to store](https://www.amazon.com.au/dp/B08KCYC2QJ) |
+| United Kingdom | Yes       | [Go to store](https://www.amazon.co.uk/dp/B08KCYC2QJ)  |
 
 ## Skill Details
 - Rated: [Guidance Suggested](https://www.amazon.com/dp/B08KCYC2QJ#). This skill contains [dynamic content](https://www.amazon.com/dp/B08KCYC2QJ#).
